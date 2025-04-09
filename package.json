@@ -1,16 +1,26 @@
 {
-  "name": "irap-glowup-v2",
+  "name": "irap-complete-studio",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "framer-motion": "^10.16.1",
-    "lucide-react": "^0.297.0",
+    "firebase": "^10.7.1",
+    "framer-motion": "^10.12.16",
+    "lucide-react": "^0.284.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-draggable": "^4.4.6",
+    "wavesurfer.js": "^7.6.0",
+    "tone": "^14.8.39"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.4.1"
   }
 }

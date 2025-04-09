@@ -1,7 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.btn-glow {
-  @apply bg-blue-600 text-white py-2 px-4 rounded-xl shadow-lg transition-all hover:bg-blue-500;
-}
